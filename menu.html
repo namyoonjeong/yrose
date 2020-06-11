@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Y:ROSE - 웹디자이너 퍼블리셔 남윤정 포트폴리오</title>
+    
+    <link rel="shortcut icon" type="image⁄x-icon" href="img/logo_p.png">
+
+    <!-- src -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body onunload="">
+    <h1>퍼블리셔 남윤정 포트폴리오</h1>
+    <!-- 상단 메뉴바 -->
+    <div class="menubar">
+        <div class="logo">
+            <a href="index.html">
+                <span class="logo_img"></span>
+                <h2>Y:ROSE</h2>
+            </a>
+        </div>
+        <a class="menu_icon" id="backbt">
+            <img src="img/close.png" alt="메뉴">
+        </a>
+    </div>
+
+    <!--메뉴-->
+    <ul class="menulist">
+        <li>
+            <a href="index.html">
+                <p>Index</p>
+            </a>
+        </li>
+        <li>
+            <a href="intro.html">
+                <p>Intro.</p>
+            </a>
+        </li>
+        <li>
+            <a href="history.html">
+                <p>History</p>
+            </a>
+        </li>
+        <li>
+            <a href="portfolio.html">
+                <p>Portfolio</p>
+            </a>
+        </li>
+        <li>
+            <a href="contact.html">
+                <p>Contact</p>
+            </a>
+        </li>
+    </ul>
+
+    <script>
+        function goback(){
+            window.history.back();
+        }
+                
+        const backbt = document.getElementById('backbt');
+
+        backbt.addEventListener("click" , goback);
+    </script>
+</body>

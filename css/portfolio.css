@@ -1,0 +1,675 @@
+ul.menu li.on a::before{
+    content: ' ';
+    position: absolute;
+    height: 6px;
+    width: 67px;
+    margin-top: 16px;
+    margin-left: -2px;
+    background-color: #ffd2d2;
+    z-index: -1;
+}
+/* ---- 포트폴리오 영역 ----*/
+div.portfolio_view_area{
+    width: 100%; height: 2800px;
+    background-color: #fef1f1;
+    text-align: center;
+}
+div.portfolio_view_area h2{
+    display: inline-block;
+    position: relative;
+    margin: 242px 0 0 0;
+    line-height: 90px;
+    color: #f9a3a3;
+    font-size: 105.34px;
+}
+div.portfolio_view_area h2 span{
+    color: #c22a4a;
+}
+div.portfolio_view_area div.portfoilo_view{
+    position: absolute;
+    width: 1417px; height: 2450px;
+    margin-top: -10px;
+    margin-left: calc(50% - 708.5px);
+    background-color: white;
+    text-align: left;
+}
+/* -- 포트폴리오 매뉴 -- */
+div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu{
+    display: flex;
+    justify-content: space-between;
+    width: 1251px;
+    margin: 84px 84px;
+    padding: 0;
+    height: 52px;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li{
+    display: inline-block;
+    height: 52px;
+    width: 189px;
+    border-radius: 5px;
+    list-style: none;
+    
+    box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.1);
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li a p{
+    display: inline-block;
+    margin: 15px 0 0 0;
+    line-height: 22px;
+    color: black;
+    font-size: 22.34px;
+    font-weight: 800;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li.on{
+    background-color: #f9a3a3;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li.on a p{
+    color: white;
+}
+
+/* -- 포트폴리오 리스트 -- */
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list{
+    display: inline-block;
+    width: 1250px;
+    margin-left: 84px;
+    padding: 0;
+    list-style: none;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li{
+    display: inline-block;
+    width: 100%;
+    height: 269px;
+    margin-bottom: 94px;
+    list-style: none;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list li a{
+    display: inline-block;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a ul{
+    display: inline-block;
+    padding: 0;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 269px;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a .img_viewmore{
+    display: none;
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 260px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    z-index: 1;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img{
+    display: inline-block;
+    overflow: hidden;
+    width: 50%;
+    height: 269px;
+    border-radius: 10px;
+    background-color: #f9a3a3;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img:hover img{
+    opacity: 0.3;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img:hover .img_viewmore{
+    display: inline-block;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img:hover{
+    box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.2);
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a p{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text div.line{
+    display: inline-block;
+    float: left;
+    width: 61px;
+    height: 6px;
+    background-color: black;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text p.title{
+    display: block;
+    margin-top: 26px;
+    line-height: 42px;
+    font-size: 42px;
+    font-weight: 600;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul{
+    margin-top: 111px;
+    list-style: none;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p{
+    display: inline-block;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.intro_text{
+    position: relative;
+    width: 69px;
+    margin-right: 29px;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 1;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li div.underline{
+    position: absolute;
+    width: 68px;
+    height: 9px;
+    margin: -10px 0 0 0;
+    background-color: #f9a3a3;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.ex_text{
+    color: #a0a0a0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.pagenumbt{
+    width: 100%;
+    text-align: center;
+}
+.pagenumbt ul{
+    display: inline-block;
+    width: 150px;
+    padding: 0;
+    list-style: none;
+}
+.pagenumbt ul li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 15px;
+    border-radius: 5px;
+    background-color: #fef1f1;
+}
+.pagenumbt ul li.on{
+    background-color: #ffd2d2;
+}
+.pagenumbt ul li.on a{
+    color: black;
+}
+.pagenumbt ul li a{
+    display: inline-block;
+    color: #f9a3a3;
+    font-size: 18px;
+    font-weight: 600;
+}
+.pagenumbt ul li p{
+    display: inline-block;
+    margin: 0;
+    margin-top: 7px;
+    padding: 0;
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    div.portfolio_view_area{
+        height: 2050px;
+    }
+    div.portfolio_view_area h2{
+        margin: 200px 0 0 0;
+        font-size: 75px;
+    }
+    div.portfolio_view_area div.portfoilo_view{
+        width: 850px;
+        height: 1800px;
+        margin-top: -23px;
+        margin-left: calc(50% - 425px);
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu{
+        width: 760px;
+        margin: 45px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li{
+        width: 150px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text div.line{
+        width: 45px;
+        height: 4px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text p.title{
+        margin-top: 26px;
+        font-size: 25px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list{
+        width: 760px;
+        margin-left: 45px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul{
+        margin-top: 50px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img{
+        height: 205px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img img{
+        height: 100%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.intro_text{
+        width: 58px;
+        margin-right: 12px;
+        font-size: 18px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.ex_text{
+        font-size: 12px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li div.underline{
+        width: 58px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a .img_viewmore{
+        margin-top: 95px;
+        margin-left: 140px;
+    }
+    div.portfolio_view_area a.moreview{
+        width: 150px;
+        height: 50px;
+        margin-left: calc(50% - 75px);
+    }
+    div.portfolio_view_area a.moreview p{
+        margin: 15px 0 0 25px;
+        font-size: 21px;
+    }
+    div.portfolio_view_area a.moreview span.rightArrow_img{
+        margin: 22px 25px 0 0;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li{
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation:portrait) {
+    div.portfolio_view_area{
+        height: 2000px;
+    }
+    div.portfolio_view_area h2{
+        margin: 130px 0 0 0;
+        font-size: 64px;
+    }
+    div.portfolio_view_area div.portfoilo_view{
+        width: 650px;
+        height: 1750px;
+        margin-top: -23px;
+        margin-left: calc(50% - 325px);
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu{
+        width: 590px;
+        height: 45px;
+        margin: 30px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li{
+        width: 130px;
+        height: 45px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li a p{
+        margin: 10px 0 0 0;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text div.line{
+        width: 30px;
+        height: 2px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text p.title{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text{
+        height: 220px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list{
+        width: 590px;
+        margin-left: 30px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul{
+        margin-top: 50px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img{
+        height: 180px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img img{
+        height: 100%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.intro_text{
+        width: 40px;
+        margin-right: 9px;
+        font-size: 12px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.ex_text{
+        font-size: 9px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li div.underline{
+        width: 40px;
+        height: 4px;
+        margin: -8px 0 0 0;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a .img_viewmore{
+        margin-top: 85px;
+        margin-left: 100px;
+        font-size: 16px;
+    }
+    div.portfolio_view_area a.moreview{
+        width: 150px;
+        height: 50px;
+        margin-left: calc(50% - 75px);
+    }
+    div.portfolio_view_area a.moreview p{
+        margin: 15px 0 0 25px;
+        font-size: 21px;
+    }
+    div.portfolio_view_area a.moreview span.rightArrow_img{
+        margin: 22px 25px 0 0;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li{
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    div.portfolio_view_area{
+        height: 2000px;
+    }
+    div.portfolio_view_area h2{
+        margin: 130px 0 0 0;
+        font-size: 64px;
+    }
+    div.portfolio_view_area div.portfoilo_view{
+        width: 650px;
+        height: 1750px;
+        margin-top: -23px;
+        margin-left: calc(50% - 325px);
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu{
+        width: 590px;
+        height: 45px;
+        margin: 30px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li{
+        width: 130px;
+        height: 45px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li a p{
+        margin: 10px 0 0 0;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text div.line{
+        width: 30px;
+        height: 2px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text p.title{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text{
+        height: 220px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list{
+        width: 590px;
+        margin-left: 30px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul{
+        margin-top: 50px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img{
+        height: 180px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img img{
+        height: 100%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.intro_text{
+        width: 40px;
+        margin-right: 9px;
+        font-size: 12px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.ex_text{
+        font-size: 9px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li div.underline{
+        width: 40px;
+        height: 4px;
+        margin: -8px 0 0 0;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a .img_viewmore{
+        margin-top: 85px;
+        margin-left: 100px;
+        font-size: 16px;
+    }
+    div.portfolio_view_area a.moreview{
+        width: 150px;
+        height: 50px;
+        margin-left: calc(50% - 75px);
+    }
+    div.portfolio_view_area a.moreview p{
+        margin: 15px 0 0 25px;
+        font-size: 21px;
+    }
+    div.portfolio_view_area a.moreview span.rightArrow_img{
+        margin: 22px 25px 0 0;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li{
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    ul.menu li.on a::before{
+        width: 62px;
+    }
+    div.portfolio_view_area{
+        height: 2650px;
+    }
+    div.portfolio_view_area h2{
+        margin: 90px 0 0 0;
+        font-size: 48px;
+    }
+    div.portfolio_view_area div.portfoilo_view{
+        width: 420px;
+        height: 2500px;
+        margin-top: -29px;
+        margin-left: calc(50% - 210px);
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu{
+        width: 400px;
+        height: 40px;
+        margin: 10px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li{
+        width: 90px;
+        height: 40px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li a p{
+        margin: 10px 0 0 0;
+        font-size: 18px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text div.line{
+        width: 30px;
+        height: 2px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text p.title{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text{
+        float: none;
+        width: 100%;
+        height: 180px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list{
+        width: 380px;
+        margin-left: 20px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul{
+        margin-top: 20px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img{
+        width: 100%;
+        height: 180px;
+        margin-bottom: 40px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img img{
+        height: 100%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.intro_text{
+        width: 40px;
+        margin-right: 9px;
+        font-size: 12px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.ex_text{
+        font-size: 9px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li div.underline{
+        width: 40px;
+        height: 4px;
+        margin: -8px 0 0 0;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a .img_viewmore{
+        margin-top: 85px;
+        margin-left: 140px;
+        font-size: 16px;
+    }
+    div.portfolio_view_area a.moreview{
+        width: 150px;
+        height: 50px;
+        margin-left: calc(50% - 75px);
+    }
+    div.portfolio_view_area a.moreview p{
+        margin: 15px 0 0 25px;
+        font-size: 21px;
+    }
+    div.portfolio_view_area a.moreview span.rightArrow_img{
+        margin: 22px 25px 0 0;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li > ul > li{
+        margin-bottom: 0px;
+    }
+    .pagenumbt ul li{
+        margin: 0 8px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    ul.menu li.on a::before{
+        width: 62px;
+    }
+    div.portfolio_view_area{
+        height: 2650px;
+    }
+    div.portfolio_view_area h2{
+        margin: 90px 0 0 0;
+        font-size: 48px;
+    }
+    div.portfolio_view_area div.portfoilo_view{
+        width: 300px;
+        height: 2480px;
+        margin-top: -29px;
+        margin-left: calc(50% - 150px);
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu{
+        width: 280px;
+        height: 30px;
+        margin: 10px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li{
+        width: 60px;
+        height: 30px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li a p{
+        margin: 4px 0 0 0;
+        font-size: 12px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text div.line{
+        width: 30px;
+        height: 2px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text p.title{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text{
+        float: none;
+        width: 100%;
+        height: 180px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list{
+        width: 260px;
+        margin-left: 20px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul{
+        margin-top: 20px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img{
+        width: 100%;
+        height: 180px;
+        margin-bottom: 40px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img img{
+        height: 100%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.intro_text{
+        width: 40px;
+        margin-right: 9px;
+        font-size: 12px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.ex_text{
+        font-size: 9px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li div.underline{
+        width: 40px;
+        height: 4px;
+        margin: -8px 0 0 0;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a .img_viewmore{
+        margin-top: 85px;
+        margin-left: 85px;
+        font-size: 16px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li{
+        height: 0;
+    }
+    div.portfolio_view_area a.moreview{
+        width: 100px;
+        height: 30px;
+        margin-left: calc(50% - 50px);
+    }
+    div.portfolio_view_area a.moreview p{
+        margin: 4.5px 0 0 12px;
+        font-size: 14px;
+    }
+    div.portfolio_view_area a.moreview span.rightArrow_img{
+        margin: 10px 12px 0 0;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li > ul > li{
+        margin-bottom: 0px;
+    }
+
+    div.banner_area{
+        height: 90px;
+    }
+    div.banner_area .banner_slides div p{
+        margin: 38px 0;
+        font-size: 11px;
+    }
+    .pagenumbt ul li{
+        margin: 0 8px;
+    }
+}

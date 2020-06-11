@@ -1,0 +1,67 @@
+ul.menu li.on a::before{
+    content: ' ';
+    position: absolute;
+    height: 6px;
+    width: 44px;
+    margin-top: 16px;
+    margin-left: -2px;
+    background-color: #ffd2d2;
+    z-index: -1;
+}
+
+/* -- 본문 -- */
+.intro{
+    background-color: #fef1f1;
+    text-align: center;
+}
+.intro h3{
+    display: inline-block;
+    margin-top: 252px;
+    color: #f9a3a3;
+    font-size: 72px;
+    font-weight: 500;
+}
+.intro h3 span{
+    color: #c22a4a;
+}
+.intro img{
+    display: inline-block;
+    width: 100%;
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .intro h3{
+        margin: 200px 0 30px 0;
+        font-size: 64px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation:portrait) {
+    .intro h3{
+        margin: 200px 0 30px 0;
+        font-size: 64px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .intro h3{
+        margin: 180px 0 30px 0;
+        font-size: 56px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    ul.menu li.on a::before{
+        width: 38px;
+    }
+    .intro h3{
+        margin: 100px 0 30px 0;
+        font-size: 48px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    ul.menu li.on a::before{
+        width: 38px;
+    }
+    .intro h3{
+        margin: 80px 0 30px 0;
+        font-size: 36px;
+    }
+}

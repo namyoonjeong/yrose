@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Y:ROSE - 웹디자이너 퍼블리셔 남윤정 포트폴리오</title>
+    
+    <link rel="shortcut icon" type="image⁄x-icon" href="img/logo_p.png">
+
+    <!-- src -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <style>
+        div.portfolio_view_area{
+            height: 3000px;
+        }
+        div.portfolio_view_area div.portfoilo_view{
+            height: 2600px;
+        }
+        @media (min-width: 1025px) and (max-width: 1440px) {
+            div.portfolio_view_area{
+                height: 2200px;
+            }
+            div.portfolio_view_area div.portfoilo_view{
+                height: 1900px;
+            }
+        }
+        @media (min-width: 768px) and (max-width: 1024px){
+            div.portfolio_view_area{
+                height: 2200px;
+            }
+            div.portfolio_view_area div.portfoilo_view{
+                height: 1900px;
+            }
+        }
+        @media (min-width: 320px) and (max-width: 480px) {
+            div.portfolio_view_area{
+                height: 2800px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body>
+    <h1>퍼블리셔 남윤정 포트폴리오</h1>
+    <!-- 상단 메뉴바 -->
+    <div class="menubar">
+        <div class="logo">
+            <a href="index.html">
+                <span class="logo_img"></span>
+                <h2>Y:ROSE</h2>
+            </a>
+        </div>
+        <ul class="menu">
+            <li>
+                <a href="index.html" class="menu_index">
+                    <p>index</p>
+                </a>
+            </li>
+            <li>
+                <a href="intro.html" class="menu_intro">
+                    <p>intro.</p>
+                </a>
+            </li>
+            <li>
+                <a href="history.html" class="menu_history">
+                    <p>history</p>
+                </a>
+            </li>
+            <li class="on">
+                <a href="portfolio.html" class="menu_portfolio">
+                    <p>portfolio</p>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html" class="menu_contact">
+                    <p>contact</p>
+                </a>
+            </li>
+        </ul>
+        <a href="menu.html" class="menu_icon">
+            <img src="img/menu.png" alt="메뉴">
+        </a>
+    </div>
+
+    <div class="portfolio_view_area">
+        <h2><span>P</span>ortfolio</h2>
+        <div class="portfoilo_view">
+            <ul class="portfolio_view_menu">
+                <li class="on" id="allmenu">
+                    <a href="portfolio.html"><p>ALL</p></a>
+                </li>
+                <li id="webmenu">
+                    <a href="portfolio_web.html"><p>WEB</p></a>
+                </li>
+                <li id="designmenu">
+                    <a href="portfolio_design.html"><p>DESIGN</p></a>
+                </li>
+                <li id="ectmenu">
+                    <a href="portfolio_ect.html"><p>ECT</p></a>
+                </li>
+            </ul>
+            <ul class="portfolio_list">
+                <li>
+                    <a href="design/design03.html">
+                        <div class="text">
+                            <div class="line"></div>
+                            <p class="title">중문 20주년 이벤트페이지</p>
+                            <ul>
+                                <li>
+                                    <p class="intro_text">CO.</p>
+                                    <p class="ex_text">압구정서울성형외과</p>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <p class="intro_text">WORK</p>
+                                    <p class="ex_text">HTML, CSS, Design(Photoshop)</p>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <p class="intro_text">URL</p>
+                                    <p class="ex_text">http://www.asps.asia/</p>
+                                    <div class="underline"></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img">
+                            <p class="img_viewmore">VIEW MORE</p>
+                            <img src="img/design03_img.jpg" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="design/design04.html">
+                        <div class="text">
+                            <div class="line"></div>
+                            <p class="title">2020 수능 이벤트</p>
+                            <ul>
+                                <li>
+                                    <p class="intro_text">CO.</p>
+                                    <p class="ex_text">압구정서울성형외과</p>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <p class="intro_text">WORK</p>
+                                    <p class="ex_text">HTML, CSS, Design(Photoshop)</p>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <p class="intro_text">URL</p>
+                                    <p class="ex_text">http://www.asps.co.kr/info/info20.asp</p>
+                                    <div class="underline"></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img">
+                            <p class="img_viewmore">VIEW MORE</p>
+                            <img src="img/design04_img.jpg" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="web/web04.html">
+                        <div class="text">
+                            <div class="line"></div>
+                            <p class="title">압구정서울성형외과 유튜브</p>
+                            <ul>
+                                <li>
+                                    <p class="intro_text">CO.</p>
+                                    <p class="ex_text">압구정서울성형외과</p>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <p class="intro_text">WORK</p>
+                                    <p class="ex_text">HTML, CSS, Javascript, Design</p>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <p class="intro_text">URL</p>
+                                    <p class="ex_text">http://www.asps.co.kr/vod/ucc_main.asp</p>
+                                    <div class="underline"></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img">
+                            <p class="img_viewmore">VIEW MORE</p>
+                            <img src="img/youtube_img.jpg" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="web/web06.html">
+                        <div class="text">
+                            <div class="line"></div>
+                            <p class="title">Moire</p>
+                            <ul>
+                                <li>
+                                    <p class="intro_text">CO.</p>
+                                    <p class="ex_text">개인 작업</p>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <p class="intro_text">WORK</p>
+                                    <p class="ex_text">HTML, CSS, Javascript, Design</p>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <p class="intro_text">URL</p>
+                                    <p class="ex_text">https://namyoonjeong.github.io/</p>
+                                    <div class="underline"></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img">
+                            <p class="img_viewmore">VIEW MORE</p>
+                            <img src="img/moire_img.jpg" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="ect/ect01.html">
+                        <div class="text">
+                            <div class="line"></div>
+                            <p class="title">PPT 디자인</p>
+                            <ul>
+                                <li>
+                                    <p class="intro_text">CO.</p>
+                                    <p class="ex_text">개인작업(과제제출)</p>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <p class="intro_text">WORK</p>
+                                    <p class="ex_text">Design(Powerpoint, Ai)</p>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <p class="intro_text">URL</p>
+                                    <p class="ex_text">-</p>
+                                    <div class="underline"></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img">
+                            <p class="img_viewmore">VIEW MORE</p>
+                            <img src="img/ect01_img.jpg" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="ect/ect02.html">
+                        <div class="text">
+                            <div class="line"></div>
+                            <p class="title">[너의 의미] 키네틱타이포그래픽</p>
+                            <ul>
+                                <li>
+                                    <p class="intro_text">CO.</p>
+                                    <p class="ex_text">개인작업(과제제출)</p>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <p class="intro_text">WORK</p>
+                                    <p class="ex_text">Video(Ai, Ae)</p>
+                                    <div class="underline"></div>
+                                </li>
+                                <li>
+                                    <p class="intro_text">URL</p>
+                                    <p class="ex_text">-</p>
+                                    <div class="underline"></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="img">
+                            <p class="img_viewmore">VIEW MORE</p>
+                            <img src="img/ect02_img.jpg" alt="">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="pagenumbt">
+                <ul>
+                    <li>
+                        <a href="portfolio.html">
+                            <p>1</p>
+                        </a>
+                    </li>
+                    <li class="on">
+                        <a href="portfolio_1.html">
+                            <p>2</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--하단 영역-->
+    <div class="footer_area">  
+        <div class="intro_area">
+            <p>No man can be successful,</p><br />
+            <div class="underline underline_1"></div><br />
+            <p>unless he first loves his work.</p><br />
+            <div class="underline underline_2"></div>
+
+            <h3>웹디자이너 / 퍼블리셔 입니다.</h3>
+        </div>
+        <div class="footer_box">
+            <ul class="info_list">
+                <li class="first">
+                    <p class="subtitle">AUTHOR</p>
+                    <p class="text name">남윤정</p>
+                </li>
+                <li>
+                    <p class="subtitle">ADDRESS</p>
+                    <p class="text">경기도 성남시 태평동</p>
+                </li>
+            </ul>
+            <ul class="info_list">
+                <li class="first">
+                    <p class="subtitle">COPYRIGHT</p>
+                    <p class="text">ⓒ2019 Y:ROSE</p>
+                </li>
+                <li>
+                    <p class="subtitle">TELL</p>
+                    <p class="text">010 - 4190 - 0712</p>
+                </li>
+                <li>
+                    <p class="subtitle">E-MAIL</p>
+                    <p class="text">jwudice7@naver.com</p>
+                </li>
+            </ul>
+            <ul class="button">
+                <li class="contact">
+                    <a href="#">
+                        <p>CONTACT</p>
+                    </a>
+                </li>
+                <li class="profile">
+                    <a href="#">
+                        <p>PROFILE</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>    
+    
+    <!-- floating 버튼 -->
+    <div class="floating_btn">
+        <div class="email_btn">
+            <p>E-MAIL</p>
+            <a href="mailto:jwudice7@naver.com">
+                <span class="email_img"></span>
+            </a>
+        </div>
+        <a href="이력서_남윤정.pdf" class="resume_btn">
+            <p>Resume Download</p>
+            <span class="download_img"></span> 
+        </a>
+    </div>
+</body>
+</html>

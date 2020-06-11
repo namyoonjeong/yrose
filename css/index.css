@@ -1,0 +1,484 @@
+ul.menu li.on a::before{
+    content: ' ';
+    position: absolute;
+    height: 6px;
+    width: 46px;
+    margin-top: 16px;
+    margin-left: -2px;
+    background-color: #ffd2d2;
+    z-index: -1;
+}
+
+
+/* ----- 상단 영역 ---- */
+
+div.main_top_area{
+    overflow: hidden;
+    width:100%; height: 100%;
+}
+div.main_top_area .slide_contents{
+    display: inline-block;
+    width:100%; height: 100%;
+    margin: 0;
+    padding: 0;
+}
+div.main_top_area .slide_contents .slide{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 33.33%; height: 100%;
+    list-style: none;
+}
+div.main_top_area .slide_contents .slide span.text_c1{
+    color: #f9a3a3;
+}
+div.main_top_area .slide_contents .slide span.text_c2{
+    color: #c2294a;
+}
+div.main_top_area .slide_contents .slide span.text_c3{
+    color: black;
+}
+div.main_top_area .slide_contents .slide h2{
+    display: inline-block;
+    margin: 331px 0 0 89px;
+    font-size: 61.27px;
+    line-height: 48px;
+}
+div.main_top_area .slide_contents .slide ul.slide.text{
+    display: inline-block;
+    margin: 63px 0 0 89px;
+    padding: 0;
+    background: none;
+    font-weight: 500;
+}
+div.main_top_area .slide_contents .slide ul.slide.text li{
+    list-style: none;
+}
+div.main_top_area .slide_contents .slide ul.slide.text li p{
+    font-size: 27.52px;
+    line-height: 26px;
+    color: #434343;
+    margin: 0 0 27.52px 0;
+}
+.slick-list.draggable{height: 100% !important;}
+.slick-track{height: 100%;}
+/* -- slide1 --*/
+div.main_top_area .slide_contents .slide1{
+    background-color: white;
+}
+div.main_top_area .slide_contents .slide1 div.innerBox{
+    display: inline-block;
+    position: absolute;
+    width: 1024px; height: 100%;
+    top:0;
+    left: 0;
+    margin: 17px 0 0 524px;
+    background-color: #f9a3a3;
+}
+div.main_top_area .slide_contents .slide1 img{
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left: 0;
+    margin: 222px 0 0 409px;
+}
+/* ---- */
+/* -- slide2 --*/
+div.main_top_area .slide_contents .slide2{
+    background-color: white;
+}
+div.main_top_area .slide_contents .slide2 a{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    margin: 170px 0 0 89px;
+    width: 199px; height: 71px;
+    background-color: white;
+    text-decoration: none;
+
+    box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.1);
+}
+div.main_top_area .slide_contents .slide2 a p{
+    margin: 27px 0 0 27px;
+    color: black;
+    font-size: 24.42px;
+    font-weight: 900;
+    line-height: 20px;
+}
+div.main_top_area .slide_contents .slide2 a p{
+    float: left;
+    margin: 27px 0 0 27px;
+    color: black;
+    font-size: 24.42px;
+    font-weight: 900;
+    line-height: 20px;
+}
+a:hover span.rightArrow_img{
+    background-image: url('../img/right_arrow_w.png');
+}
+    /* -- slide2 morebtn a hover --*/
+    div.main_top_area .slide_contents .slide2 a:hover{
+        background-color: #f9a3a3;
+    }
+    div.main_top_area .slide_contents .slide2 a:hover p{
+        color: white
+    }
+    a span.rightArrow_img{
+        display: inline-block;
+        float: left;
+        margin: 27px 0 0 59px;
+        width: 12px; height: 20px;
+        background-image: url('../img/right_arrow_b.png');
+        background-size: 12px 20px;
+    }
+    /* ---- */
+div.main_top_area .slide_contents .slide2 div.innerBox{
+    display: inline-block;
+    position: absolute;
+    float: right;
+    width: 55%; height: 585px;
+    top: 223px; right: 0;
+    background-image: url("../img/laptop.jpg");
+}
+div.main_top_area .slide_contents .slide2 img{
+    position: absolute;
+    top: 223px; right: 0;
+}
+/* ---- */
+/* -- slide3 -- */
+div.main_top_area .slide_contents .slide3{
+    background-image: url("../img/jump.jpg");
+    background-size: cover;
+    margin-top: 152px;
+}
+div.main_top_area .slide_contents .slide3 h2{
+    color: white;
+    margin-top: 173px;
+
+    -webkit-text-shadow: 5px 5px 18px rgba(88,0,38,0.66);
+    -moz-text-shadow: 5px 5px 18px rgba(88,0,38,0.66);
+    text-shadow: 5px 5px 18px rgba(88,0,38,0.66);
+}
+/* ---- */
+div.main_top_area div.slider{
+    display: inline-block;
+    position: sticky;
+    width: 204px; height: 75px;
+    left: 0px;
+    bottom: 72px;
+    margin: 0 0 72px 89px;
+    border-radius: 50px;
+    background-color: white;
+    z-index: 100;
+}
+div.main_top_area div.slider div.slider_text{
+    display: inline-block;
+    margin: 27px 0 0 25px;
+}
+div.main_top_area div.slider div.slider_text a.arrow{
+    display: inline-block;
+    float: left;
+    width: 34px;
+    color: black;
+    font-size: 36.34px;
+    line-height: 18px;
+    text-decoration: none;
+}
+div.main_top_area div.slider div.slider_text a.arrow.mainRightArrow{
+    float: right;
+    margin-left: 19px;
+}
+div.main_top_area div.slider div.slider_text p{
+    float: left;
+    margin: 0;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 18px;
+}
+div.main_top_area div.slider div.slider_text .slider_for p{
+    color: #f9a3a3;
+}
+.slider_text .slick-slider{
+    display: inline-block;
+    float: left;
+    width: 14px;
+    margin-left: 19px;
+    text-align: left;
+}
+.slider_text .slick-slider .slick-list.draggable{
+    width: 18px;
+    height: 24px !important;
+    margin: -2px 0 0 0;
+    padding-top: 2px;
+}
+/* ---- 포트폴리오 미리보기 영역 ----*/
+div.portfolio_view_area{
+    width: 100%; height: 1891px;
+    background-color: #fef1f1;
+    text-align: center;
+}
+div.portfolio_view_area h2{
+    display: inline-block;
+    position: relative;
+    margin: 242px 0 0 0;
+    line-height: 90px;
+    color: #f9a3a3;
+    font-size: 105.34px;
+}
+div.portfolio_view_area h2 span{
+    color: #c22a4a;
+}
+div.portfolio_view_area div.portfoilo_view{
+    position: absolute;
+    width: 1417px; height: 1460px;
+    margin-top: -10px;
+    margin-left: calc(50% - 708.5px);
+    background-color: white;
+    text-align: left;
+}
+/* -- 포트폴리오 매뉴 -- */
+div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu{
+    display: flex;
+    justify-content: space-between;
+    width: 1251px;
+    margin: 84px 84px;
+    padding: 0;
+    height: 52px;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li{
+    display: inline-block;
+    height: 52px;
+    width: 189px;
+    border-radius: 5px;
+    list-style: none;
+    
+    box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.1);
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li a p{
+    display: inline-block;
+    margin: 15px 0 0 0;
+    line-height: 22px;
+    color: black;
+    font-size: 22.34px;
+    font-weight: 800;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li.on{
+    background-color: #f9a3a3;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li.on a p{
+    color: white;
+}
+
+/* -- 포트폴리오 리스트 -- */
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list{
+    display: inline-block;
+    width: 1250px;
+    margin-left: 84px;
+    padding: 0;
+    list-style: none;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li{
+    display: inline-block;
+    width: 100%;
+    height: 1070px;
+    list-style: none;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li > ul.portfolio_lists{
+    display: inline-block;
+    width: 100%;
+    height: 269px;
+    padding: 0;
+    list-style: none;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li.all{
+    display: inline-block;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li.web{
+    display: none;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li.design{
+    display: none;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li.ect{
+    display: none;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li > ul li{
+    display: inline-block;
+    width: 100%;
+    list-style: none;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li > ul > li{
+    margin-bottom: 94px;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li > ul li a{
+    display: inline-block;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a ul{
+    display: inline-block;
+    padding: 0;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 269px;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a .img_viewmore{
+    display: none;
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 260px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    z-index: 1;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img{
+    display: inline-block;
+    overflow: hidden;
+    width: 50%;
+    height: 269px;
+    border-radius: 10px;
+    background-color: #f9a3a3;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img:hover img{
+    opacity: 0.3;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img:hover .img_viewmore{
+    display: inline-block;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img:hover{
+    box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.2);
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a p{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text div.line{
+    display: inline-block;
+    float: left;
+    width: 61px;
+    height: 6px;
+    background-color: black;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text p.title{
+    display: block;
+    margin-top: 26px;
+    line-height: 42px;
+    font-size: 42px;
+    font-weight: 600;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul{
+    margin-top: 111px;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p{
+    display: inline-block;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.intro_text{
+    position: relative;
+    width: 69px;
+    margin-right: 29px;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 1;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li div.underline{
+    position: absolute;
+    width: 68px;
+    height: 9px;
+    margin: -10px 0 0 0;
+    background-color: #f9a3a3;
+}
+div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.ex_text{
+    color: #a0a0a0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* ---- 더보기 버튼 ---- */
+div.portfolio_view_area a.moreview{
+    display: inline-block;
+    width: 251px;
+    height: 66px;
+    margin-left: calc(50% - 125px);
+    border-radius: 5px;
+    background-color: black;
+    text-align: left;
+}
+div.portfolio_view_area a.moreview p{
+    display: inline-block;
+    float: left;
+    margin: 23px 0 0 36px;
+    line-height: 22.34px;
+    font-size: 22.34px;
+    color: white;
+    font-weight: 800;
+}
+div.portfolio_view_area a.moreview span.rightArrow_img{
+    display: inline-block;
+    float: right;
+    margin: 25px 36px 0 0;
+    background-image: url('../img/right_arrow_w.png');
+}
+/* --- 더보기 버튼 hover ---- */
+div.portfolio_view_area a.moreview:hover{
+    background-color: #f9a3a3;
+}
+div.portfolio_view_area a.moreview:hover p{
+    color: black;
+}
+div.portfolio_view_area a.moreview:hover span.rightArrow_img{
+    background-image: url('../img/right_arrow_b.png');
+}
+
+
+/* ---- 배너 영역 ----*/
+div.banner_area{
+    overflow: hidden;
+    width: 100%;
+    height: 276px;
+    background-color: #f9a3a3;
+}
+div.banner_area .banner_slides{
+    display: inline-block;
+    width: 200%;
+    margin: 0;
+    padding: 0;
+}
+div.banner_area .banner_slides div{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+div.banner_area .banner_slides div p{
+    position: relative;
+    display: inline-block;
+    margin: 109px 0;
+    color: #965d5d;
+    font-size: 36px;
+    font-weight: 700;
+}
+/* --------*/

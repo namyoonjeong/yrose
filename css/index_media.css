@@ -1,0 +1,933 @@
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+    div.main_top_area .slide_contents .slide h2{
+        font-size: 48px;
+    }
+    div.main_top_area .slide_contents .slide ul.slide.text{
+        width: 100%;
+        margin: 40px 0 0 50px;
+    }
+    div.main_top_area .slide_contents .slide ul.slide.text li p{
+        font-size: 21px;
+        margin: 0 0 21px 0;
+    }
+    div.main_top_area .slide_contents .slide h2{
+        margin: 250px 0 0 50px
+    }
+    div.main_top_area .slide_contents .slide3 h2{
+        margin: 120px 0 0 50px;
+    }
+    div.main_top_area .slide_contents .slide1 div.innerBox{
+        width: 40%;
+        margin: 17px 0 0 400px;
+    }
+    div.main_top_area .slide_contents .slide1 img{
+        width: 55%;
+        margin: 250px 0 0 300px;
+    }
+    div.main_top_area .slide_contents .slide2 div.innerBox{
+        width: 50%;
+        height: 400px;
+        top: 130px;
+    }
+    div.main_top_area .slide_contents .slide2 img{
+        width: 40%;
+        top: 180px;
+    }
+    .slider_text .slick-slider{
+        width: 10px;
+    }
+    div.main_top_area div.slider{
+        width: 150px;
+        height: 50px;
+        margin: 0 0 50px 50px;
+        bottom: 50px;
+    }
+    div.main_top_area div.slider div.slider_text a.arrow{
+        font-size: 21px;
+        margin-left: 0;
+    }
+    .slider_text .slick-slider{
+        width: 10px;
+        margin-left: 0;
+    }
+    .slider_text .slick-slider .slick-list.draggable{
+        width: 15px;
+    }
+    div.main_top_area div.slider div.slider_text p{
+        font-size: 18px;
+    }
+    div.main_top_area div.slider div.slider_text{
+        margin: 16px 0 0 25px;
+    }
+    div.main_top_area div.slider div.slider_text a.arrow.mainRightArrow{
+        margin-left: 15px;
+    }
+    div.main_top_area .slide_contents .slide2 a{
+        margin: 130px 0 0 50px;
+        width: 150px;
+        height: 50px;
+    }
+    div.main_top_area .slide_contents .slide2 a p{
+        margin: 16px 0 0 27px;
+        font-size: 18px;
+    }
+    a span.rightArrow_img{
+        margin: 21px 0 0 25px;
+        width: 6px;
+        height: 10px;
+        background-size: 6px 10px;
+    }
+
+    div.portfolio_view_area{
+        height: 1440px;
+    }
+    div.portfolio_view_area h2{
+        margin: 200px 0 0 0;
+        font-size: 75px;
+    }
+    div.portfolio_view_area div.portfoilo_view{
+        width: 850px;
+        height: 1100px;
+        margin-top: -23px;
+        margin-left: calc(50% - 425px);
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu{
+        width: 760px;
+        margin: 45px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li{
+        width: 150px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text div.line{
+        width: 45px;
+        height: 4px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text p.title{
+        margin-top: 26px;
+        font-size: 25px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list{
+        width: 760px;
+        margin-left: 45px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul{
+        margin-top: 50px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img{
+        height: 205px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img img{
+        height: 100%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.intro_text{
+        width: 58px;
+        margin-right: 12px;
+        font-size: 18px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.ex_text{
+        font-size: 12px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li div.underline{
+        width: 58px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a .img_viewmore{
+        margin-top: 95px;
+        margin-left: 140px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li{
+        height: 800px;
+    }
+    div.portfolio_view_area a.moreview{
+        width: 150px;
+        height: 50px;
+        margin-left: calc(50% - 75px);
+    }
+    div.portfolio_view_area a.moreview p{
+        margin: 15px 0 0 25px;
+        font-size: 21px;
+    }
+    div.portfolio_view_area a.moreview span.rightArrow_img{
+        margin: 22px 25px 0 0;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li > ul > li{
+        margin-bottom: 0px;
+    }
+
+    div.banner_area{
+        height: 150px;
+    }
+    div.banner_area .banner_slides div p{
+        margin: 55px 0;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation:portrait) {
+
+    div.main_top_area{
+        height: 50%;
+    }
+    div.main_top_area .slide_contents .slide h2{
+        font-size: 36px;
+    }
+    div.main_top_area .slide_contents .slide ul.slide.text{
+        width: 100%;
+        margin: 20px 0 0 30px;
+    }
+    div.main_top_area .slide_contents .slide ul.slide.text li p{
+        font-size: 18px;
+        margin: 0 0 10px 0;
+    }
+    div.main_top_area .slide_contents .slide h2{
+        margin: 180px 0 0 30px
+    }
+    div.main_top_area .slide_contents .slide3 h2{
+        margin: 80px 0 0 30px;
+    }
+    div.main_top_area .slide_contents .slide1 div.innerBox{
+        width: 35%;
+        margin: 17px 0 0 35%;
+    }
+    div.main_top_area .slide_contents .slide1 img{
+        width: 50%;
+        margin: 200px 0 0 30%;
+    }
+    div.main_top_area .slide_contents .slide2 div.innerBox{
+        width: 50%;
+        height: 300px;
+        top: 100px;
+    }
+    div.main_top_area .slide_contents .slide2 img{
+        width: 40%;
+        top: 150px;
+    }
+    .slider_text .slick-slider{
+        width: 10px;
+    }
+    div.main_top_area div.slider{
+        width: 150px;
+        height: 50px;
+        margin: 0 0 30px 30px;
+        bottom: 30px;
+    }
+    div.main_top_area div.slider div.slider_text a.arrow{
+        font-size: 21px;
+        margin-left: 0;
+    }
+    .slider_text .slick-slider{
+        width: 10px;
+        margin-left: 0;
+    }
+    .slider_text .slick-slider .slick-list.draggable{
+        width: 15px;
+    }
+    div.main_top_area div.slider div.slider_text p{
+        font-size: 18px;
+    }
+    div.main_top_area div.slider div.slider_text{
+        margin: 16px 0 0 25px;
+    }
+    div.main_top_area div.slider div.slider_text a.arrow.mainRightArrow{
+        margin-left: 15px;
+    }
+    div.main_top_area .slide_contents .slide2 a{
+        margin: 80px 0 0 30px;
+        width: 130px;
+        height: 40px;
+    }
+    div.main_top_area .slide_contents .slide2 a p{
+        margin: 10px 0 0 20px;
+        font-size: 18px;
+    }
+    div.main_top_area .slide_contents .slide3{
+        margin-top: 100px;
+    }
+    a span.rightArrow_img{
+        margin: 15px 0 0 25px;
+        width: 6px;
+        height: 10px;
+        background-size: 6px 10px;
+    }
+
+    div.portfolio_view_area{
+        height: 1150px;
+    }
+    div.portfolio_view_area h2{
+        margin: 130px 0 0 0;
+        font-size: 64px;
+    }
+    div.portfolio_view_area div.portfoilo_view{
+        width: 650px;
+        height: 900px;
+        margin-top: -23px;
+        margin-left: calc(50% - 325px);
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu{
+        width: 590px;
+        height: 45px;
+        margin: 30px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li{
+        width: 130px;
+        height: 45px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li a p{
+        margin: 10px 0 0 0;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text div.line{
+        width: 30px;
+        height: 2px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text p.title{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text{
+        height: 220px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list{
+        width: 590px;
+        margin-left: 30px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul{
+        margin-top: 50px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img{
+        height: 180px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img img{
+        height: 100%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.intro_text{
+        width: 40px;
+        margin-right: 9px;
+        font-size: 12px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.ex_text{
+        font-size: 9px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li div.underline{
+        width: 40px;
+        height: 4px;
+        margin: -8px 0 0 0;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list a .img_viewmore{
+        margin-top: 85px;
+        margin-left: 100px;
+        font-size: 16px;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li{
+        height: 660px;
+    }
+    div.portfolio_view_area a.moreview{
+        width: 150px;
+        height: 50px;
+        margin-left: calc(50% - 75px);
+    }
+    div.portfolio_view_area a.moreview p{
+        margin: 15px 0 0 25px;
+        font-size: 21px;
+    }
+    div.portfolio_view_area a.moreview span.rightArrow_img{
+        margin: 22px 25px 0 0;
+    }
+    div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li > ul > li{
+        margin-bottom: 0px;
+    }
+
+    div.banner_area{
+        height: 100px;
+    }
+    div.banner_area .banner_slides div p{
+        margin: 38px 0;
+        font-size: 16px;
+    }
+
+ 
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+     
+        div.main_top_area .slide_contents .slide h2{
+            font-size: 36px;
+        }
+        div.main_top_area .slide_contents .slide ul.slide.text{
+            width: 100%;
+            margin: 20px 0 0 30px;
+        }
+        div.main_top_area .slide_contents .slide ul.slide.text li p{
+            font-size: 18px;
+            margin: 0 0 10px 0;
+        }
+        div.main_top_area .slide_contents .slide h2{
+            margin: 180px 0 0 30px
+        }
+        div.main_top_area .slide_contents .slide3 h2{
+            margin: 80px 0 0 30px;
+        }
+        div.main_top_area .slide_contents .slide1 div.innerBox{
+            width: 35%;
+            margin: 17px 0 0 35%;
+        }
+        div.main_top_area .slide_contents .slide1 img{
+            width: 50%;
+            margin: 200px 0 0 250px;
+        }
+        div.main_top_area .slide_contents .slide2 div.innerBox{
+            width: 50%;
+            height: 300px;
+            top: 100px;
+        }
+        div.main_top_area .slide_contents .slide2 img{
+            width: 40%;
+            top: 150px;
+        }
+        .slider_text .slick-slider{
+            width: 10px;
+        }
+        div.main_top_area div.slider{
+            width: 150px;
+            height: 50px;
+            margin: 0 0 30px 30px;
+            bottom: 30px;
+        }
+        div.main_top_area div.slider div.slider_text a.arrow{
+            font-size: 21px;
+            margin-left: 0;
+        }
+        .slider_text .slick-slider{
+            width: 10px;
+            margin-left: 0;
+        }
+        .slider_text .slick-slider .slick-list.draggable{
+            width: 15px;
+        }
+        div.main_top_area div.slider div.slider_text p{
+            font-size: 18px;
+        }
+        div.main_top_area div.slider div.slider_text{
+            margin: 16px 0 0 25px;
+        }
+        div.main_top_area div.slider div.slider_text a.arrow.mainRightArrow{
+            margin-left: 15px;
+        }
+        div.main_top_area .slide_contents .slide2 a{
+            margin: 80px 0 0 30px;
+            width: 130px;
+            height: 40px;
+        }
+        div.main_top_area .slide_contents .slide2 a p{
+            margin: 10px 0 0 20px;
+            font-size: 18px;
+        }
+        div.main_top_area .slide_contents .slide3{
+            margin-top: 100px;
+        }
+        a span.rightArrow_img{
+            margin: 15px 0 0 25px;
+            width: 6px;
+            height: 10px;
+            background-size: 6px 10px;
+        }
+    
+        div.portfolio_view_area{
+            height: 1150px;
+        }
+        div.portfolio_view_area h2{
+            margin: 130px 0 0 0;
+            font-size: 64px;
+        }
+        div.portfolio_view_area div.portfoilo_view{
+            width: 650px;
+            height: 900px;
+            margin-top: -23px;
+            margin-left: calc(50% - 325px);
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu{
+            width: 590px;
+            height: 45px;
+            margin: 30px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li{
+            width: 130px;
+            height: 45px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li a p{
+            margin: 10px 0 0 0;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text div.line{
+            width: 30px;
+            height: 2px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text p.title{
+            margin-top: 15px;
+            font-size: 20px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text{
+            height: 220px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list{
+            width: 590px;
+            margin-left: 30px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul{
+            margin-top: 50px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img{
+            height: 180px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img img{
+            height: 100%;
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.intro_text{
+            width: 40px;
+            margin-right: 9px;
+            font-size: 12px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.ex_text{
+            font-size: 9px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li div.underline{
+            width: 40px;
+            height: 4px;
+            margin: -8px 0 0 0;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a .img_viewmore{
+            margin-top: 85px;
+            margin-left: 100px;
+            font-size: 16px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li{
+            height: 660px;
+        }
+        div.portfolio_view_area a.moreview{
+            width: 150px;
+            height: 50px;
+            margin-left: calc(50% - 75px);
+        }
+        div.portfolio_view_area a.moreview p{
+            margin: 15px 0 0 25px;
+            font-size: 21px;
+        }
+        div.portfolio_view_area a.moreview span.rightArrow_img{
+            margin: 22px 25px 0 0;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li > ul > li{
+            margin-bottom: 0px;
+        }
+    
+        div.banner_area{
+            height: 100px;
+        }
+        div.banner_area .banner_slides div p{
+            margin: 38px 0;
+            font-size: 16px;
+        }
+    
+    
+    }
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+        
+        ul.menu li.on a::before{
+            width: 39px;
+        }
+
+        div.main_top_area .slide_contents .slide h2{
+            font-size: 30px;
+        }
+        div.main_top_area .slide_contents .slide ul.slide.text{
+            width: 100%;
+            margin: 15px 0 0 20px;
+        }
+        div.main_top_area .slide_contents .slide ul.slide.text li p{
+            font-size: 14px;
+            margin: 0;
+            z-index: 10;
+        }
+        div.main_top_area .slide_contents .slide h2{
+            margin: 100px 0 0 20px;
+            position: relative;
+            z-index: 10;
+        }
+        div.main_top_area .slide_contents .slide3 h2{
+            margin: 35px 0 0 20px;
+        }
+        div.main_top_area .slide_contents .slide1 div.innerBox{
+            width: 35%;
+            margin: 17px 0 0 40%;
+        }
+        div.main_top_area .slide_contents .slide1 img{
+            width: 50%;
+            margin: 33% 0 0 33%;
+        }
+        div.main_top_area .slide_contents .slide2 div.innerBox{
+            width: 50%;
+            height: 50%;
+            top: 70px;
+            background-size: auto 100%;
+        }
+        div.main_top_area .slide_contents .slide2 img{
+            width: 40%;
+            top: 100px;
+        }
+        .slider_text .slick-slider{
+            width: 10px;
+        }
+        div.main_top_area div.slider{
+            width: 100px;
+            height: 30px;
+            margin: 0 0 20px 20px;
+            bottom: 20px;
+        }
+        div.main_top_area div.slider div.slider_text a.arrow{
+            width: 24px;
+            margin-left: 0;
+            font-size: 15px;
+        }
+        .slider_text .slick-slider{
+            width: 7px;
+            margin-left: 0;
+        }
+        .slider_text .slick-slider .slick-list.draggable{
+            width: 13px;
+        }
+        div.main_top_area div.slider div.slider_text p{
+            font-size: 12px;
+        }
+        div.main_top_area div.slider div.slider_text{
+            margin: 5px 0 0 15px;
+        }
+        div.main_top_area div.slider div.slider_text a.arrow.mainRightArrow{
+            margin-left: 10px;
+        }
+        div.main_top_area .slide_contents .slide2 a{
+            margin: 50px 0 0 20px;
+            width: 75px;
+            height: 30px;
+        }
+        div.main_top_area .slide_contents .slide2 a p{
+            margin: 5px 0 0 8px;
+            font-size: 14px;
+        }
+        div.main_top_area .slide_contents .slide3{
+            margin-top: 70px;
+        }
+        a span.rightArrow_img{
+            margin: 10px 0 0 10px;
+            width: 6px;
+            height: 10px;
+            background-size: 6px 10px;
+        }
+    
+        div.portfolio_view_area{
+            height: 1610px;
+        }
+        div.portfolio_view_area h2{
+            margin: 90px 0 0 0;
+            font-size: 48px;
+        }
+        div.portfolio_view_area div.portfoilo_view{
+            width: 420px;
+            height: 1420px;
+            margin-top: -29px;
+            margin-left: calc(50% - 210px);
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu{
+            width: 400px;
+            height: 40px;
+            margin: 10px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li{
+            width: 90px;
+            height: 40px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li a p{
+            margin: 10px 0 0 0;
+            font-size: 18px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text div.line{
+            width: 30px;
+            height: 2px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text p.title{
+            margin-top: 15px;
+            font-size: 20px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text{
+            float: none;
+            width: 100%;
+            height: 180px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list{
+            width: 380px;
+            margin-left: 20px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul{
+            margin-top: 20px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img{
+            width: 100%;
+            height: 180px;
+            margin-bottom: 40px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img img{
+            height: 100%;
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.intro_text{
+            width: 40px;
+            margin-right: 9px;
+            font-size: 12px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.ex_text{
+            font-size: 9px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li div.underline{
+            width: 40px;
+            height: 4px;
+            margin: -8px 0 0 0;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a .img_viewmore{
+            margin-top: 85px;
+            margin-left: 140px;
+            font-size: 16px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li{
+            height: 660px;
+        }
+        div.portfolio_view_area a.moreview{
+            width: 150px;
+            height: 50px;
+            margin-left: calc(50% - 75px);
+        }
+        div.portfolio_view_area a.moreview p{
+            margin: 15px 0 0 25px;
+            font-size: 21px;
+        }
+        div.portfolio_view_area a.moreview span.rightArrow_img{
+            margin: 22px 25px 0 0;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li > ul > li{
+            margin-bottom: 0px;
+        }
+    
+        div.banner_area{
+            height: 90px;
+        }
+        div.banner_area .banner_slides div p{
+            margin: 38px 0;
+            font-size: 14px;
+        }
+    
+    
+    }
+    
+    @media (min-width: 320px) and (max-width: 480px) {
+    
+        ul.menu li.on a::before{
+            width: 39px;
+        }
+
+        div.main_top_area .slide_contents .slide h2{
+            font-size: 30px;
+        }
+        div.main_top_area .slide_contents .slide ul.slide.text{
+            width: 100%;
+            margin: 15px 0 0 20px;
+        }
+        div.main_top_area .slide_contents .slide ul.slide.text li p{
+            font-size: 14px;
+            margin: 0;
+            z-index: 10;
+        }
+        div.main_top_area .slide_contents .slide h2{
+            margin: 100px 0 0 20px;
+            position: relative;
+            z-index: 10;
+        }
+        div.main_top_area .slide_contents .slide3 h2{
+            margin: 35px 0 0 20px;
+        }
+        div.main_top_area .slide_contents .slide1 div.innerBox{
+            width: 50%;
+            margin: 17px 0 0 40%;
+            left: unset;
+            right: 0;
+        }
+        div.main_top_area .slide_contents .slide1 img{
+            width: 70%;
+            margin: 85% 0 0 40%;
+        }
+        div.main_top_area .slide_contents .slide2 div.innerBox{
+            width: 50%;
+            height: 50%;
+            top: unset;
+            bottom: 0;
+            background-size: auto 100%;
+        }
+        div.main_top_area .slide_contents .slide2 img{
+            width: 40%;
+            top: unset;
+            bottom: 100px;
+        }
+        .slider_text .slick-slider{
+            width: 10px;
+        }
+        div.main_top_area div.slider{
+            width: 100px;
+            height: 30px;
+            margin: 0 0 20px 20px;
+            bottom: 20px;
+        }
+        div.main_top_area div.slider div.slider_text a.arrow{
+            width: 24px;
+            margin-left: 0;
+            font-size: 15px;
+        }
+        .slider_text .slick-slider{
+            width: 7px;
+            margin-left: 0;
+        }
+        .slider_text .slick-slider .slick-list.draggable{
+            width: 13px;
+        }
+        div.main_top_area div.slider div.slider_text p{
+            font-size: 12px;
+        }
+        div.main_top_area div.slider div.slider_text{
+            margin: 5px 0 0 15px;
+        }
+        div.main_top_area div.slider div.slider_text a.arrow.mainRightArrow{
+            margin-left: 10px;
+        }
+        div.main_top_area .slide_contents .slide2 a{
+            margin: 50px 0 0 20px;
+            width: 75px;
+            height: 30px;
+        }
+        div.main_top_area .slide_contents .slide2 a p{
+            margin: 5px 0 0 8px;
+            font-size: 14px;
+        }
+        div.main_top_area .slide_contents .slide3{
+            margin-top: 70px;
+        }
+        a span.rightArrow_img{
+            margin: 10px 0 0 10px;
+            width: 6px;
+            height: 10px;
+            background-size: 6px 10px;
+        }
+    
+        div.portfolio_view_area{
+            height: 1570px;
+        }
+        div.portfolio_view_area h2{
+            margin: 90px 0 0 0;
+            font-size: 48px;
+        }
+        div.portfolio_view_area div.portfoilo_view{
+            width: 300px;
+            height: 1380px;
+            margin-top: -29px;
+            margin-left: calc(50% - 150px);
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu{
+            width: 280px;
+            height: 30px;
+            margin: 10px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li{
+            width: 60px;
+            height: 30px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_view_menu li a p{
+            margin: 4px 0 0 0;
+            font-size: 12px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text div.line{
+            width: 30px;
+            height: 2px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text p.title{
+            margin-top: 15px;
+            font-size: 18px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text{
+            float: none;
+            width: 100%;
+            height: 180px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list{
+            width: 260px;
+            margin-left: 20px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul{
+            margin-top: 20px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img{
+            width: 100%;
+            height: 180px;
+            margin-bottom: 40px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.img img{
+            height: 100%;
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.intro_text{
+            width: 40px;
+            margin-right: 9px;
+            font-size: 12px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li p.ex_text{
+            font-size: 9px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a div.text ul li div.underline{
+            width: 40px;
+            height: 4px;
+            margin: -8px 0 0 0;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list a .img_viewmore{
+            margin-top: 85px;
+            margin-left: 85px;
+            font-size: 16px;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li{
+            height: 660px;
+        }
+        div.portfolio_view_area a.moreview{
+            width: 100px;
+            height: 30px;
+            margin-left: calc(50% - 50px);
+        }
+        div.portfolio_view_area a.moreview p{
+            margin: 4.5px 0 0 12px;
+            font-size: 14px;
+        }
+        div.portfolio_view_area a.moreview span.rightArrow_img{
+            margin: 10px 12px 0 0;
+        }
+        div.portfolio_view_area div.portfoilo_view ul.portfolio_list > li > ul > li{
+            margin-bottom: 0px;
+        }
+    
+        div.banner_area{
+            height: 90px;
+        }
+        div.banner_area .banner_slides div p{
+            margin: 38px 0;
+            font-size: 11px;
+        }
+    
+    }

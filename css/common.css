@@ -1,0 +1,749 @@
+/* ---- font ---- */
+html, body{
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: white;
+    height: 100%;
+}
+
+.slick-slide {
+    outline: none
+}
+
+::selection {
+    background: #f9a3a3;
+    color: white;
+}
+
+/* ---- 상단 메뉴바 ---- */
+div.menubar{
+    display: inline-block;
+    position: fixed;
+    width:100%; height: 152px;
+    top:0;
+    left: 0;
+    background-color: white;
+    z-index: 9999;
+}
+div.logo{
+    float: left;
+    margin: 91px 0 0 89px;
+}
+div.logo a{
+    display: inline-block;
+    text-decoration: none;
+}
+div.logo a span.logo_img{
+    display: inline-block;
+    float: left;
+    width: 22px; height: 22px;
+    margin: 10.5px 7px 0 0;
+    background-image: url('../img/logo_p.png');
+    background-size: 22px 22px;
+    background-repeat: no-repeat;
+}
+div.logo a h2{
+    float: left;
+    margin: 0px;
+    color: black;
+    font-size: 25.96px;
+    font-weight: 300;
+}
+ul.menu{
+    float: right;
+    margin: 91px 84px 0 0;
+}
+ul.menu li{
+    float: left;
+    list-style: none;
+}
+ul.menu li a{
+    color: black;
+    font-size: 14.54px;
+    font-weight: 700;
+    line-height: 25.96px;
+    text-decoration: none;
+}
+ul.menu li a.menu_index{
+    margin: 0 95px 0 0;
+}
+ul.menu li a.menu_intro{
+    margin: 0 107px 0 0;
+}
+ul.menu li a.menu_history{
+    margin: 0 95px 0 0;
+}
+ul.menu li a.menu_portfolio{
+    margin: 0 75px 0 0;
+}
+ul.menu li a p{
+    display: inline-block;
+    margin: 0;
+}
+.menu_icon{
+    display: none;
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-top: 14px;
+    margin-right: 20px;
+}
+.menu_icon img{
+    width: 40px;
+    height: 40px;
+}
+
+/* ---- floating 버튼 ---- */
+div.floating_btn{
+    display: inline-block;
+    position: fixed;
+    width: 100%; height: 100%;
+}
+div.email_btn{
+    display: inline-block;
+    position: fixed;
+    width: 80px;
+    top: 50%;
+    right: 0px;
+    margin: -70px 77px 0 0;
+    text-align: center;
+    z-index: 50;
+}
+div.email_btn p{
+    color: #626262;
+    font-size: 12.97px;
+    font-weight: 500;
+}
+div.email_btn a{
+    display: inline-block;
+    width: 80px; height: 80px;
+    border-radius: 50%;
+    background-color: #f9a3a3;
+}
+div.email_btn a span.email_img{
+    display: inline-block;
+    width: 29px; height: 20px;
+    margin: 30px 0 0 0;
+    background-image: url('../img/email.png');
+    background-size: 29px 20px;
+    background-repeat: no-repeat;
+} 
+a.resume_btn{
+    display: inline-block;
+    position: fixed;
+    width: 216px; height: 49px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0 77px 77px 0;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    z-index: 50;
+}
+a.resume_btn p{
+    float: left;
+    margin: 18px 0 0 9px;
+    font-size: 18.69px;
+    font-weight: 700;
+    line-height: 15px;
+}
+a.resume_btn span.download_img{
+    float: left;
+    width: 16px; height: 20px;
+    margin: 15px 0 0 9px;
+    background-image: url('../img/download_b.png');
+    background-size: 16px 20px;
+    background-repeat: no-repeat;
+}
+/* -- a.resume_btn hover -- */
+a.resume_btn:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #f9a3a3;
+    
+    box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.1);
+}
+a.resume_btn:hover span.download_img{
+    background-image: url('../img/download_w.png');
+}
+/* ---- */
+
+/* ---- 하단 영역 ---- */
+div.footer_area{
+    background-color: #fef1f1;
+    text-align: center;
+}
+div.footer_area div.intro_area{
+    display: inline-block;
+    margin-top: 94px;
+}
+div.footer_area div.intro_area p{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 1;
+}
+div.footer_area div.intro_area div.underline{
+    display: inline-block;
+    position: relative;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+    top: -18px;
+    background-color: #f9a3a3;
+}
+div.footer_area div.intro_area div.underline_1{
+    width: 270px;
+}
+div.footer_area div.intro_area div.underline_2{
+    width: 300px;
+}
+div.footer_area div.intro_area h3{
+    color: white;
+    line-height: 50px;
+    font-size: 50px;
+    font-weight: 600;
+
+    text-shadow: 18px 4px 30px rgba(249, 163, 163, 0.44);
+    -webkit-text-shadow: 18px 4px 30px rgba(249, 163, 163, 0.44);
+    -moz-text-shadow: 18px 4px 30px rgba(249, 163, 163, 0.44);
+}
+div.footer_area div.footer_box{
+    display: inline-block;
+    position: relative;
+    width: 1418px;
+    height: 350px;
+    bottom: -5px;
+    background-color: #382b2b;
+    text-align: left;
+}
+div.footer_area div.footer_box ul li{
+    list-style: none;
+}
+div.footer_area div.footer_box ul.info_list{
+    display: inline-block;
+    float: left;
+    width: 600px;
+    height: 55px;
+    margin: 0 0 0 190px;
+    padding: 0;
+}
+div.footer_area div.footer_box ul.info_list:nth-of-type(1){
+    margin-top: 111px;
+}
+div.footer_area div.footer_box ul.info_list:nth-of-type(2){
+    margin-top: 55px;
+}
+div.footer_area div.footer_box ul.info_list li:nth-of-type(3){
+    margin-right: 0;
+}
+div.footer_area div.footer_box ul.info_list li{
+    width: 186px;
+    float: left;
+}
+div.footer_area div.footer_box ul.info_list li.first{
+    width: 158px;
+}
+div.footer_area div.footer_box ul.info_list li p.subtitle{
+    margin: 0;
+    padding: 0;
+    color: white;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 600;
+}
+div.footer_area div.footer_box ul.info_list li p.text{
+    margin: 10px 0 0 0;
+    padding: 0;
+    color: #ae8686;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+div.footer_area div.footer_box ul.info_list li p.text.name{
+    color: #f9a3a3;
+}
+
+div.footer_area div.footer_box ul.button{
+    display: inline-block;
+    position: absolute;
+    float: left;
+    margin: 111px 0 0 190px;
+}
+div.footer_area div.footer_box ul.button li{
+    width: 204px;
+    height: 54px;
+    border-radius: 5px;
+    text-align: center;
+}
+div.footer_area div.footer_box ul.button li.contact{
+    background-color: #f9a3a3;
+}
+div.footer_area div.footer_box ul.button li.profile{
+    margin-top: 55px;
+    background-color: white;
+}
+div.footer_area div.footer_box ul.button li a{
+    display: inline-block;
+    width: 204px;
+    height: 54px;
+    text-decoration: none;
+}
+div.footer_area div.footer_box ul.button li a p{
+    display: inline-block;
+    margin: 16px 0 0 0;
+    line-height: 22px;
+    color: #382b2b;
+    font-size: 22px;
+    font-weight: 800;
+}
+h1{
+    position: absolute;
+    bottom: 25px;
+    right: 337px;
+    color: transparent;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    div.menubar{
+        height: 130px;
+    }
+    div.logo{
+        margin: 60px 0 0 50px;
+    }
+    ul.menu{
+        margin: 64px 50px 0 0;
+    }
+
+    a.resume_btn{
+        width: 210px;
+        height: 45px;
+        margin: 0 50px 50px 0;
+    }
+    a.resume_btn p{
+        margin: 15px 0 0 9px;
+        font-size: 18px;
+    }
+    a.resume_btn span.download_img{
+        width: 14px;
+        height: 18px;
+        margin: 14px 0 0 9px;
+        background-size: 14px 18px;
+    }
+    div.email_btn{
+        margin: -70px 50px 0 0;
+    }
+    div.email_btn a{
+        width: 70px;
+        height: 70px;
+    }
+    div.email_btn a span.email_img{
+        margin: 25px 0 0 0;
+    }
+
+    div.footer_area div.footer_box{
+        width: 850px;
+    }
+    div.footer_area div.footer_box ul.info_list:nth-of-type(1){
+        margin-top: 50px;
+    }
+    div.footer_area div.footer_box ul.info_list{
+        margin: 0 0 0 60px;
+    }
+    div.footer_area div.footer_box ul.button{
+        margin: 50px 0 0 -50px;
+    }
+    div.footer_area div.footer_box ul.button li{
+        width: 150px;
+    }
+    div.footer_area div.footer_box ul.button li a{
+        width: 150px;
+    }
+    div.footer_area div.footer_box ul.button li a p{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    div.menubar{
+        height: 100px;
+    }
+    div.logo{
+        margin: 30px 0 0 30px;
+    }
+    ul.menu{
+        margin: 35px 30px 0 0;
+    }
+
+    ul.menu li a.menu_index{
+        margin: 0 45px 0 0;
+    }
+    ul.menu li a.menu_intro{
+        margin: 0 45px 0 0;
+    }
+    ul.menu li a.menu_history{
+        margin: 0 42px 0 0;
+    }
+    ul.menu li a.menu_portfolio{
+        margin: 0 40px 0 0;
+    }
+
+    a.resume_btn{
+        width: 170px;
+        height: 30px;
+        margin: 0 30px 30px 0;
+    }
+    a.resume_btn p{
+        margin: 8px 0 0 9px;
+        font-size: 15px;
+    }
+    a.resume_btn span.download_img{
+        width: 9px;
+        height: 12px;
+        margin: 10px 0 0 5px;
+        background-size: 9px 12px;
+    }
+    div.email_btn{
+        width: 50px;
+        margin: -50px 30px 0 0;
+    }
+    div.email_btn p{
+        margin-bottom: 8px;
+    }
+    div.email_btn a{
+        width: 50px;
+        height: 50px;
+    }
+    div.email_btn a span.email_img{
+        width: 24px;
+        height: 25px;
+        margin: 18px 0 0 0;
+        background-size: 24px 15px;
+    }
+
+    
+    div.footer_area div.intro_area{
+        margin-top: 50px;
+    }
+    div.footer_area div.intro_area h3{
+        line-height: 36px;
+        font-size: 36px;
+    }   
+    div.footer_area div.footer_box{
+        width: 650px;
+    }
+    div.footer_area div.footer_box ul.info_list:nth-of-type(1){
+        margin-top: 50px;
+    }
+    div.footer_area div.footer_box ul.info_list{
+        margin: 0 0 0 60px;
+    }
+    div.footer_area div.footer_box ul.button{
+        display: block;
+        position: relative;
+        margin: 50px 0 0 0;
+    }
+    div.footer_area div.footer_box ul.button li{
+        display: inline-block;
+        width: 150px;
+        height: 45px;
+    }
+    div.footer_area div.footer_box ul.button li a{
+        width: 150px;
+        height: 45px;
+    }
+    div.footer_area div.footer_box ul.button li a p{
+        margin: 12px 0 0;
+        font-size: 18px;
+    }
+    div.footer_area div.footer_box ul.button li.profile{
+        margin-top: 0;
+        margin-left: 30px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    div.menubar{
+        height: 70px;
+    }
+    div.logo{
+        margin: 20px 0 0 20px;
+    }
+    div.logo a span.logo_img{
+        width: 15px;
+        height: 15px;
+        margin: 8px 7px 0 0;
+        background-size: 15px 15px;
+    }
+    div.logo a h2{
+        font-size: 18px;
+    }
+    ul.menu{
+        margin: 20px 20px 0 0;
+        padding: 0;
+    }
+
+    ul.menu li a.menu_index{
+        margin: 0 22.5px 0 0;
+    }
+    ul.menu li a.menu_intro{
+        margin: 0 22.5px 0 0;
+    }
+    ul.menu li a.menu_history{
+        margin: 0 21px 0 0;
+    }
+    ul.menu li a.menu_portfolio{
+        margin: 0 18px 0 0;
+    }
+    ul.menu li a p{
+        font-size: 13px;
+    }
+
+    a.resume_btn{
+        width: 134px;
+        height: 30px;
+        margin: 0 20px 20px 0;
+    }
+    a.resume_btn p{
+        margin: 8px 0 0 9px;
+        font-size: 11px;
+    }
+    a.resume_btn span.download_img{
+        width: 9px;
+        height: 12px;
+        margin: 10px 0 0 5px;
+        background-size: 9px 12px;
+    }
+    div.email_btn{
+        width: 40px;
+        margin: -40px 20px 0 0;
+    }
+    div.email_btn p{
+        margin-bottom: 8px;
+        font-size: 11px;
+    }
+    div.email_btn a{
+        width: 40px;
+        height: 40px;
+    }
+    div.email_btn a span.email_img{
+        width: 20px;
+        height: 12px;
+        margin: 13px 0 0 0;
+        background-size: 20px 12px;
+    }
+    
+    div.footer_area div.intro_area{
+        margin-top: 50px;
+    }
+    div.footer_area div.intro_area p{
+        font-size: 16px;
+    }
+    div.footer_area div.intro_area div.underline{
+        height: 8px;
+        top: -20px;
+    }
+    div.footer_area div.intro_area div.underline_1{
+        width: 215px;
+    }
+    div.footer_area div.intro_area div.underline_2{
+        width: 240px;
+    }
+    div.footer_area div.intro_area h3{
+        line-height: 28px;
+        font-size: 28px;
+    }
+    div.footer_area div.footer_box{
+        width: 420px;
+        height: 440px;
+    }
+    div.footer_area div.footer_box ul.info_list:nth-of-type(1){
+        margin-top: 50px;
+    }
+    div.footer_area div.footer_box ul.info_list{
+        width: 350px;
+        margin: 0 0 0 60px;
+    }
+    div.footer_area div.footer_box ul.info_list li:nth-of-type(3){
+        float: none;
+        margin: 100px 0;
+    }
+    div.footer_area div.footer_box ul.button{
+        display: block;
+        position: relative;
+        margin: 140px 0 0 0;
+    }
+    div.footer_area div.footer_box ul.button li{
+        display: inline-block;
+        width: 150px;
+        height: 45px;
+    }
+    div.footer_area div.footer_box ul.button li a{
+        width: 150px;
+        height: 45px;
+    }
+    div.footer_area div.footer_box ul.button li a p{
+        margin: 12px 0 0;
+        font-size: 18px;
+    }
+    div.footer_area div.footer_box ul.button li.profile{
+        margin-top: 0;
+        margin-left: 30px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    div.menubar{
+        height: 70px;
+    }
+    div.logo{
+        margin: 20px 0 0 20px;
+    }
+    div.logo a span.logo_img{
+        width: 15px;
+        height: 15px;
+        margin: 8px 3px 0 0;
+        background-size: 15px 15px;
+    }
+    div.logo a h2{
+        font-size: 18px;
+    }
+    ul.menu{
+        display: none;
+        margin: 20px 20px 0 0;
+        padding: 0;
+    }
+
+    ul.menu li a.menu_index{
+        margin: 0 22.5px 0 0;
+    }
+    ul.menu li a.menu_intro{
+        margin: 0 22.5px 0 0;
+    }
+    ul.menu li a.menu_history{
+        margin: 0 21px 0 0;
+    }
+    ul.menu li a.menu_portfolio{
+        margin: 0 18px 0 0;
+    }
+    ul.menu li a p{
+        font-size: 13px;
+    }
+    .menu_icon{
+        display: inline-block;
+    }
+
+    a.resume_btn{
+        width: 134px;
+        height: 30px;
+        margin: 0;
+        right: 20px;
+        bottom: 20px;
+    }
+    a.resume_btn p{
+        margin: 8px 0 0 9px;
+        font-size: 11px;
+    }
+    a.resume_btn span.download_img{
+        width: 9px;
+        height: 12px;
+        margin: 10px 0 0 5px;
+        background-size: 9px 12px;
+    }
+    div.email_btn{
+        width: 40px;
+        margin-right: 20px;
+        top: calc(50% - 38px);
+    }
+    div.email_btn p{
+        margin-bottom: 8px;
+        font-size: 11px;
+    }
+    div.email_btn a{
+        width: 40px;
+        height: 40px;
+    }
+    div.email_btn a span.email_img{
+        width: 20px;
+        height: 12px;
+        margin: 13px 0 0 0;
+        background-size: 20px 12px;
+    }
+    
+    div.footer_area div.intro_area{
+        margin-top: 50px;
+    }
+    div.footer_area div.intro_area p{
+        font-size: 16px;
+    }
+    div.footer_area div.intro_area div.underline{
+        height: 8px;
+        top: -20px;
+    }
+    div.footer_area div.intro_area div.underline_1{
+        width: 215px;
+    }
+    div.footer_area div.intro_area div.underline_2{
+        width: 240px;
+    }
+    div.footer_area div.intro_area h3{
+        line-height: 20px;
+        font-size: 20px;
+    }
+    div.footer_area div.footer_box{
+        overflow: hidden;
+        width: 300px;
+        height: 440px;
+    }
+    div.footer_area div.footer_box ul.info_list:nth-of-type(1){
+        margin-top: 50px;
+    }
+    div.footer_area div.footer_box ul.info_list{
+        width: 350px;
+        margin: 0 0 0 25px;
+    }
+    div.footer_area div.footer_box ul.info_list li:nth-of-type(3){
+        float: none;
+        margin: 100px 0;
+    }
+    div.footer_area div.footer_box ul.info_list li p.subtitle{
+        line-height: 12px;
+        font-size: 12px;
+    }
+    div.footer_area div.footer_box ul.info_list li p.text{
+        line-height: 12px;
+        font-size: 12px;
+    }
+
+    div.footer_area div.footer_box ul.button{
+        display: block;
+        position: relative;
+        width: 300px;
+        margin: 120px 0 0 0;
+    }
+    div.footer_area div.footer_box ul.button li{
+        display: inline-block;
+        width: 100px;
+        height: 30px;
+    }
+    div.footer_area div.footer_box ul.button li a{
+        width: 100px;
+        height: 30px;
+    }
+    div.footer_area div.footer_box ul.button li a p{
+        margin: 4px 0 0;
+        font-size: 14px;
+    }
+    div.footer_area div.footer_box ul.button li.profile{
+        margin-top: 0;
+        margin-left: 20px;
+    }
+}

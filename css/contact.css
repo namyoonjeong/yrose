@@ -1,0 +1,367 @@
+ul.menu li.on a::before{
+    content: ' ';
+    position: absolute;
+    height: 6px;
+    width: 60px;
+    margin-top: 16px;
+    margin-left: -2px;
+    background-color: #ffd2d2;
+    z-index: -1;
+}
+
+div.contact_area{
+    width: 100%; height: 1350px;
+    background-color: #fef1f1;
+    text-align: center;
+}
+div.contact_area h2{
+    display: inline-block;
+    position: relative;
+    margin: 242px 0 0 0;
+    line-height: 90px;
+    color: #f9a3a3;
+    font-size: 105.34px;
+    opacity: 0.5;
+}
+form{
+    position: absolute;
+    width: 900px; height: 750px;
+    padding: 120px 190px;
+    margin-top: -10px;
+    margin-left: calc(50% - 640px);
+    background-color: white;
+    text-align: left;
+}
+.texttopline{
+    width: 40px;
+    height: 5px;
+    border-radius: 1px;
+    background-color: #ffd2d2;
+}
+form h3{
+    margin: 20px 0 50px 0;
+    color: black;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: -1;
+}
+form label{
+    font-size: 16px;
+    font-weight: 600;
+}
+form .textbox_name{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    z-index: 3;
+}
+form .textbox_name_underline{
+    position: absolute;
+    width: 49px; height: 5px;
+    margin-top: -19px;
+    margin-left: -3px;
+    background-color: #ffd2d2;
+    z-index: 1;
+}
+form .line1 .line_input:nth-of-type(2) .textbox_name_underline{
+    width: 63px;
+}
+form .line2 .line_input:nth-of-type(1) .textbox_name_underline{
+    width: 79px; 
+}
+form .line2 .line_input:nth-of-type(2) .textbox_name_underline{
+    width: 79px;
+}
+form .textbox_name_underline.textarea_underline{
+    width: 65px;
+    margin-top: 68px;
+}
+form .textbox{
+    width: 270px; height: 50px;
+    padding: 0 15px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+
+    box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.1);
+}
+form .textbox:hover{
+    background-color: #fef1f1;
+}
+form #company, form #companyphone{
+    margin-right: 50px;
+}
+form .line1, form .line2{
+    margin-bottom: 50px;
+}
+form .line_input{
+    display: inline-block;
+}
+form .textarea_name{
+    float: left;
+    margin-top: 50px;
+}
+form .textarea{
+    width: 730px; height: 180px;
+    margin-top: 50px;
+    padding: 10px 15px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+
+    resize: none;
+
+    box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 18px 18px 38px 0px rgba(0,0,0,0.1);
+}
+form .textarea:hover{
+    background-color: #fef1f1;
+}
+form .submit{
+    display: inline-block;
+    width: 250px; height: 60px;
+    margin-top: 90px;
+    margin-left: calc(50% - 125px);
+    border: none;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+form .submit:hover{
+    color: #ffd2d2;
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    form{
+        width: 750px;
+        padding: 90px 100px;
+        margin-left: calc(50% - 473px);
+    }
+    form .textbox_name{
+        width: 90px;
+    }
+    form .textbox{
+        width: 220px;
+    }
+    form .textarea{
+        width: 620px;
+    }
+    form .submit{
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation:portrait) {
+    ul.menu li.on a::before{
+        width: 55px;
+    }
+
+    div.contact_area{
+        height: 1500px;
+    }
+    div.contact_area h2{
+        margin-top: 150px;
+        font-size: 72px;
+    }
+    form{
+        width: 500px;
+        height: 1050px;
+        margin-top: -20px;
+        padding: 80px 90px;
+        margin-left: calc(50% - 340px);
+    }
+    form .texttopline{
+        height: 3px;
+    }
+    form h3{
+        font-size: 36px;
+    }
+    form .textbox_name{
+        width: 90px;
+    }
+    form .textbox{
+        width: 220px;
+    }
+    form .textarea{
+        width: 500px;
+    }
+    form .line_input{
+        margin: 15px 0;
+    }
+    form .textbox_name_underline.textarea_underline{
+        margin-top: -7px;
+    }
+    form .submit{
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    ul.menu li.on a::before{
+        width: 55px;
+    }
+    div.contact_area{
+        height: 1500px;
+    }
+    div.contact_area h2{
+        margin-top: 150px;
+        font-size: 72px;
+    }
+    form{
+        width: 500px;
+        height: 1050px;
+        margin-top: -20px;
+        padding: 80px 90px;
+        margin-left: calc(50% - 340px);
+    }
+    form .texttopline{
+        height: 3px;
+    }
+    form h3{
+        font-size: 36px;
+    }
+    form .textbox_name{
+        width: 90px;
+    }
+    form .textbox{
+        width: 220px;
+    }
+    form .textarea{
+        width: 500px;
+    }
+    form .line_input{
+        margin: 15px 0;
+    }
+    form .textbox_name_underline.textarea_underline{
+        margin-top: -7px;
+    }
+    form .submit{
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    ul.menu li.on a::before{
+        width: 55px;
+    }
+    div.contact_area{
+        height: 1380px;
+    }
+    div.contact_area h2{
+        margin-top: 120px;
+        font-size: 56px;
+    }
+    form{
+        width: 400px;
+        height: 1100px;
+        margin-top: -25px;
+        padding: 30px 30px;
+        margin-left: calc(50% - 230px);
+    }
+    form .texttopline{
+        height: 3px;
+    }
+    form h3{
+        font-size: 36px;
+    }
+    form .textbox_name{
+        width: 90px;
+    }
+    form .textbox{
+        width: 220px;
+    }
+    form .textarea{
+        width: 370px;
+        margin-top: 30px;
+    }
+    form .line1 .line_input:nth-of-type(2) .textbox_name_underline{
+        margin-left: -3px;
+    }
+    form .line2 .line_input:nth-of-type(2) .textbox_name_underline{
+        margin-left: -3px;
+    }
+    form .line_input{
+        margin: 15px 0;
+    }
+    form .textbox_name_underline.textarea_underline{
+        margin-top: -7px;
+    }
+    form .submit{
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    ul.menu li.on a::before{
+        width: 55px;
+    }
+    div.contact_area{
+        height: 1450px;
+    }
+    div.contact_area h2{
+        margin-top: 120px;
+        font-size: 48px;
+    }
+    form{
+        overflow: hidden;
+        width: 260px;
+        height: 1200px;
+        margin-top: -25px;
+        margin-left: calc(50% - 150px);
+        padding: 30px 20px;
+    }
+    form .texttopline{
+        width: 30px;
+        height: 3px;
+    }
+    form h3{
+        font-size: 28px;
+        margin: 10px 0 30px 0;
+    }
+    form .textbox_name{
+        width: 90px;
+    }
+    form .textbox_name_underline{
+        margin-top: -7px;
+    }
+    form .textbox{
+        width: 220px;
+        margin-top: 20px;
+
+        box-shadow: 18px 18px 18px 0px rgba(0,0,0,0.05);
+        -webkit-box-shadow: 18px 18px 18px 0px rgba(0,0,0,0.05);
+        -moz-box-shadow: 18px 18px 18px 0px rgba(0,0,0,0.05);
+    }
+    form #company, form #companyphone{
+        margin-right: 0;
+    }
+    form .textarea{
+        width: 230px;
+        margin-top: 30px;
+
+        box-shadow: 18px 18px 18px 0px rgba(0,0,0,0.05);
+        -webkit-box-shadow: 18px 18px 18px 0px rgba(0,0,0,0.05);
+        -moz-box-shadow: 18px 18px 18px 0px rgba(0,0,0,0.05);
+    }
+    form .line1 .line_input:nth-of-type(2) .textbox_name_underline{
+        margin-left: -3px;
+    }
+    form .line2 .line_input:nth-of-type(2) .textbox_name_underline{
+        margin-left: -3px;
+    }
+    form .line_input{
+        margin: 15px 0;
+    }
+    form .textbox_name_underline.textarea_underline{
+        margin-top: -7px;
+    }
+    form .submit{
+        margin-top: 35px;
+    }
+}

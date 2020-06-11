@@ -1,0 +1,25 @@
+ul.menulist{
+    width: 100%;
+    height: calc(100% - 70px);
+    margin: 0;
+    padding: 0;
+    padding-top: 70px;
+    background-color: #fef1f1;
+    text-align: center;
+    list-style: none;
+}
+ul.menulist li{
+    display: inline-block;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+ul.menulist li a{
+    display: inline-block;
+    color: black;
+}
+ul.menulist li a p{
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 600;
+}
